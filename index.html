@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>Itinerary</title>
+    
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
   </head>
-  <body>
+  <body class="overflow-scroll">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
     <script src="https://kit.fontawesome.com/7aa98cd648.js" crossorigin="anonymous"></script>
+
+    <!-- Map box -->
+    <div id='map' style='width: 400px; height: 300px;'></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dGhld21pbGxlcmgiLCJhIjoiY20wdXZ0cGYxMTlmZTJpczVpdXExOXdkYyJ9.kKG0mzGlM_tEJt-FLVhuCQ';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11'
+      });
+    </script>
   </body>
 </html>
