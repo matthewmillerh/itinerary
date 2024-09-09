@@ -1,7 +1,8 @@
 <script setup>
 defineProps({
   showFiles: Boolean,
-  fileUrl: String
+  fileUrl: String,
+  showCost: Boolean
 })
 </script>
 
@@ -11,9 +12,10 @@ defineProps({
     <div class="w-8">
       <slot name="icon"></slot>
     </div>
-    <!-- Itinerary item details -->
+    <!-- Itinerary item details and cost-->
     <div class="max-w-full">
-      <slot name="details"></slot>
+      <slot name="details"></slot>&nbsp;
+      <span v-if="showCost" class="bg-gray-300 rounded-3xl pl-2 pr-2 pt-1 pb-1 text-xs font-semibold inline-flex align-middle"><slot name="cost"></slot></span>
     </div>
     <!-- File icon -->
     <div v-if="showFiles && fileUrl.length" class="w-6 ml-auto order-2 pl-3 cursor-pointer">

@@ -6,6 +6,7 @@ import itineraryData from './data/itinerary.json';
 
 const data = itineraryData
 const showFiles = ref(false)
+const showCost = ref(false)
 const showCountries = ref(false)
 const countryFilterBtn = ref('Filter Countries')
 const filteredCountriesList = ref([])
@@ -78,7 +79,7 @@ function filterCountriesList(countries){
     </div>
     <!-- Show costs filter -->
     <div class="text-sm font-semibold h-7 flex items-center ml-3 rounded-3xl bg-white pl-3 pr-3">
-      Show Costs<input class="ml-1" type="checkbox"/>
+      Show Costs<input class="ml-1" type="checkbox" v-model="showCost"/>
     </div>
     <!-- Map view button -->
     <div class="h-7 flex items-center ml-auto order-2">
@@ -111,7 +112,7 @@ function filterCountriesList(countries){
       </Itinerary>
       <!-- loop through each item in the day -->
       <div v-for="item in day.items">
-        <ItineraryItem :show-files="showFiles" :file-url="item.file">
+        <ItineraryItem :show-files="showFiles" :file-url="item.file" :show-cost="showCost">
           <template v-slot:icon>
             <i v-if="item.type === 'Flight'" class="fa-solid fa-plane"></i>
             <i v-if="item.type === 'Train'" class="fa-solid fa-train"></i>
@@ -120,7 +121,10 @@ function filterCountriesList(countries){
             <i v-if="item.type === ''" class="fa-regular fa-circle-dot"></i>
           </template>  
           <template #details>
-            <p><span v-html="item.details"></span></p>
+            <span v-html="item.details"></span>
+          </template>
+          <template #cost>
+            {{ item.cost.toLocaleString('en-US', { style: 'currency', currency: 'ZAR' }) }}
           </template>
         </ItineraryItem>
       </div>
