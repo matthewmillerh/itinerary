@@ -4,6 +4,10 @@ import Itinerary from './components/Itinerary.vue';
 import ItineraryItem from './components/ItineraryItem.vue';
 import itineraryData from './data/itinerary.json';
 
+//mapbox imports
+import Map from './components/Map.vue';
+import '/node_modules/mapbox-gl/dist/mapbox-gl.css';
+
 const data = itineraryData
 const showFiles = ref(false)
 const showCost = ref(false)
@@ -153,9 +157,10 @@ function toggleView(){
   </div><!-- End Text view wrapper -->
 
   <!-- Map View wrapper -->
-  <div v-else>
-    
-
+  <div v-else class="max-w-3xl mr-auto ml-auto mt-5">
+    <div id="layout" class="max-w-full">
+      <Map />
+    </div>
   </div><!-- End Map View wrapper -->
   
   
