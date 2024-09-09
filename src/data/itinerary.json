@@ -1,0 +1,568 @@
+{
+    "day": [{
+        "date": "Tuesday, December 24, 2024",
+        "countries": "South Africa, Germany",
+        "items": [
+            {
+                "type": "Flight",
+                "details": "Flight departure from Cape Town International Airport to Frankfurt Main Airport (Flight Number: <b>LH577<\/b>, Departure: <b>18:00<\/b>)",
+                "cost": 55000,
+                "file": "Test File"
+            }
+        ]
+    },
+    {
+        "date": "Wednesday, December 25, 2024",
+        "countries": "Germany, France, Netherlands",
+        "items": [
+            {
+                "type": "Flight",
+                "details": "Flight arrival at Frankfurt Main Airport from Cape Town International Airport (Flight Number: <b>LH577</b>, Arrival: <b>05:25</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight departure from Frankfurt Main Airport to Paris CDG Airport (Flight Number: <b>LH1030</b>, Departure: <b>09:25</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight arrival at Paris CDG Airport from Frankfurt Main Airport (Flight Number: <b>LH1030</b>, Departure: <b>10:40</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Paris CDG to Paris Gare du Nord",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Paris Gare du Nord to Rotterdam Centraal - (Departure: <b>16:25</b>, Duration: <b>2h37m</b>, Arrival: <b>19:02</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Rotterdam Centraal to Utrecht Centraal",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Bus",
+                "details": "Bus departure from Utrecht Centraal to Zeist",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Corona Hotel - <b>Address:</b> Slotlaan 301, 3701 GJ Zeist, Netherlands - <b>Phone:</b> +31 30 693 0696",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Thursday, December 26, 2024",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Corona Hotel - <b>Address:</b> Slotlaan 301, 3701 GJ Zeist, Netherlands - <b>Phone:</b> +31 30 693 0696",
+                "cost": "<b>55000<\/b>",
+                "file": "Test"
+            }
+        ]
+    },
+    {
+        "date": "Friday, December 27, 2024",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Corona Hotel - <b>Address:</b> Slotlaan 301, 3701 GJ Zeist, Netherlands - <b>Phone:</b> +31 30 693 0696",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Saturday, December 28, 2024",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Sunday, December 29, 2024",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Train",
+                "details": "Train departure from Utrecht Centraal to Amsterdam Centraal",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hortus Hotel - <b>Address:</b> Plantageparklaan 8, Amsterdam City Centre, 1018 SR Amsterdam, Netherlands - <b>Phone:</b> +31 20 625 9996",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Monday, December 30, 2024",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Hortus Hotel - <b>Address:</b> Plantageparklaan 8, Amsterdam City Centre, 1018 SR Amsterdam, Netherlands - <b>Phone:</b> +31 20 625 9996",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Amsterdam Centraal to Praha hl.n - (Departure: <b>22:34</b>, Duration: <b>11h25m</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Sleep on the overnight train from Amsterdam to Prague",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Tuesday, December 31, 2024",
+        "countries": "Czechia",
+        "items": [
+            {
+                "type": "Train",
+                "details": "Train arrival at Praha hl.n from Amsterdam Centraal - (Arrival: <b>11:27</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Wednesday, January 1, 2025",
+        "countries": "Czechia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Thursday, January 2, 2025",
+        "countries": "Czechia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Friday, January 3, 2025",
+        "countries": "Czechia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at ?",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Saturday, January 4, 2025",
+        "countries": "Czechia, Austria",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at ?)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Praha hl.n to Salzburg Hbf",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Best Western Plus Amedia Art Salzburg - <b>Address:</b> Linzer Bundesstraße 6, Schallmoos, 5020 Salzburg, Austria - <b>Phone:</b> +43 662 650100",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Sunday, January 5, 2025",
+        "countries": "Austria",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Best Western Plus Amedia Art Salzburg - <b>Address:</b> Linzer Bundesstraße 6, Schallmoos, 5020 Salzburg, Austria - <b>Phone:</b> +43 662 650100",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Monday, January 6, 2025",
+        "countries": "Austria",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Best Western Plus Amedia Art Salzburg - <b>Address:</b> Linzer Bundesstraße 6, Schallmoos, 5020 Salzburg, Austria - <b>Phone:</b> +43 662 650100",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Tuesday, January 7, 2025",
+        "countries": "Austria, Slovenia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Best Western Plus Amedia Art Salzburg - <b>Address:</b> Linzer Bundesstraße 6, Schallmoos, 5020 Salzburg, Austria - <b>Phone:</b> +43 662 650100",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Salzburg Hbf to Ljubljana Station",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Allegro Hotel - <b>Address:</b> Gornji trg 6, 1000 Ljubljana, Slovenia - <b>Phone:</b> +386 41 557 908",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Wednesday, January 8, 2025",
+        "countries": "Slovenia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Allegro Hotel - <b>Address:</b> Gornji trg 6, 1000 Ljubljana, Slovenia - <b>Phone:</b> +386 41 557 908",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Ljubljana Station to Bled Jezero",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Čarman House - <b>Address:</b> Cesta Svobode 37, 4260 Bled, Slovenia - <b>Phone:</b> +386 51 784 150",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Thursday, January 9, 2025",
+        "countries": "Slovenia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Čarman House - <b>Address:</b> Cesta Svobode 37, 4260 Bled, Slovenia - <b>Phone:</b> +386 51 784 150",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Friday, January 10, 2025",
+        "countries": "Slovenia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Čarman House - <b>Address:</b> Cesta Svobode 37, 4260 Bled, Slovenia - <b>Phone:</b> +386 51 784 150",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Saturday, January 11, 2025",
+        "countries": "Slovenia",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Čarman House - <b>Address:</b> Cesta Svobode 37, 4260 Bled, Slovenia - <b>Phone:</b> +386 51 784 150",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Bled Jezero to Ljubljana Station",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Allegro Hotel - <b>Address:</b> Gornji trg 6, 1000 Ljubljana, Slovenia - <b>Phone:</b> +386 41 557 908",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Sunday, January 12, 2025",
+        "countries": "Slovenia, Italy",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Allegro Hotel - <b>Address:</b> Gornji trg 6, 1000 Ljubljana, Slovenia - <b>Phone:</b> +386 41 557 908",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Ljubljana Station to Trieste Centrale",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Trieste Centrale to Venice Santa Lucia",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Tiziano - <b>Address:</b> Dorsoduro, Calle Riello, 1873, Dorsoduro, 30123 Venice, Italy - <b>Phone:</b> +39 041 275 0071",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Monday, January 13, 2025",
+        "countries": "Italy",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Tiziano - <b>Address:</b> Dorsoduro, Calle Riello, 1873, Dorsoduro, 30123 Venice, Italy - <b>Phone:</b> +39 041 275 0071",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Tuesday, January 14, 2025",
+        "countries": "Italy",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Tiziano - <b>Address:</b> Dorsoduro, Calle Riello, 1873, Dorsoduro, 30123 Venice, Italy - <b>Phone:</b> +39 041 275 0071",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Wednesday, January 15, 2025",
+        "countries": "Italy",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Hotel Tiziano - <b>Address:</b> Dorsoduro, Calle Riello, 1873, Dorsoduro, 30123 Venice, Italy - <b>Phone:</b> +39 041 275 0071",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Venice Santa Lucia to Rome Termini",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Flower Garden Hotel - <b>Address:</b> Via Del Viminale 7, Central Station, 00184 Rome, Italy - <b>Phone:</b> +39 06 4782 4096",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Thursday, January 16, 2025",
+        "countries": "Italy",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Flower Garden Hotel - <b>Address:</b> Via Del Viminale 7, Central Station, 00184 Rome, Italy - <b>Phone:</b> +39 06 4782 4096",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Friday, January 17, 2025",
+        "countries": "Italy, Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Flower Garden Hotel - <b>Address:</b> Via Del Viminale 7, Central Station, 00184 Rome, Italy - <b>Phone:</b> +39 06 4782 4096",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight departure from Rome Fiumicino Airport to Amsterdam Schiphol Airport, (Flight Number: <b>KL1606</b>, Departure: <b>17:15</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight arrival at Amsterdam Schiphol Airport from Rome Fiumicino Airport, (Flight Number: <b>KL1606</b>, Arrival: <b>19:50</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hampton By Hilton Utrecht Centraal Station - <b>Address:</b> Boven Catharijnepoort 4, City Centre, 3511 WN Utrecht, Netherlands - <b>Phone:</b>s +31 30 237 7033",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Saturday, January 18, 2025",
+        "countries": "Netherlands",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hampton By Hilton Utrecht Centraal Station - <b>Address:</b> Boven Catharijnepoort 4, City Centre, 3511 WN Utrecht, Netherlands - <b>Phone:</b>s +31 30 237 7033",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Sunday, January 19, 2025",
+        "countries": "France",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Hampton By Hilton Utrecht Centraal Station - <b>Address:</b> Boven Catharijnepoort 4, City Centre, 3511 WN Utrecht, Netherlands - <b>Phone:</b>s +31 30 237 7033",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Utrecht Centraal to Rotterdam Centraal",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Train",
+                "details": "Train departure from Rotterdam Centraal to Paris Gare du Nord - (Departure: <b>12:58</b>, Duration: <b>2h40m</b>, Arrival: <b>15:38</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Audran in Paris, France (Check-in from: <b>14:00</b>)<br/> Address: 7 Rue Audran, 18th arr., 75018 Paris, France, Phone: +33 1 42 58 79 59",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Monday, January 20, 2025",
+        "countries": "France",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Audran - <b>Address:</b> 7 Rue Audran, 18th arr., 75018 Paris, France - <b>Phone:</b> +33 1 42 58 79 59",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Tuesday, January 21, 2025",
+        "countries": "France",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Sleep at Hotel Audran - <b>Address:</b> 7 Rue Audran, 18th arr., 75018 Paris, France - <b>Phone:</b> +33 1 42 58 79 59",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    },
+    {
+        "date": "Wednesday, January 22, 2025",
+        "countries": "France",
+        "items": [
+            {
+                "type": "Hotel",
+                "details": "Check-out at Hotel Audran - <b>Address:</b> 7 Rue Audran, 18th arr., 75018 Paris, France - <b>Phone:</b> +33 1 42 58 79 59",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight departure from Paris CDG to Frankfurt Main Airport (Flight Number: <b>LH1035</b>, Departure: <b>14:15</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight arrival at Frankfurt Main Airport from Paris CDG Airport (Flight Number: <b>LH1035</b>, Arrival: <b>15:35</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            },
+            {
+                "type": "Flight",
+                "details": "Flight departure from Paris CDG to Frankfurt Main Airport (Flight Number: <b>LH1035</b>, Departure: <b>14:15</b>)",
+                "cost": "<b>55000<\/b>",
+                "file": ""
+            }
+        ]
+    }
+
+    ]
+}
