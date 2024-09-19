@@ -84,7 +84,7 @@ function toggleView(){
   <div class="max-w-3xl rounded-lg bg-gray-200 ml-auto mr-auto min-h-12 p-2 mt-3 flex items-center z-20 relative">
     <!-- Countries filter -->
     <div class="min-h-7 flex items-center">
-      <button class="text-sm min-h-7 pl-3 pr-3 bg-white rounded-3xl font-semibold" @click="filterCountries">
+      <button class="text-sm min-h-7 pl-3 pr-3 bg-white rounded-3xl font-semibold hover:bg-gray-400 transition-colors" @click="filterCountries">
         <i class="fa-solid fa-earth-europe" v-if="showCountries === false"></i>
         <i class="fa-solid fa-circle-xmark" v-else></i>
         &nbsp;<span>{{ countryFilterBtn }}</span>
@@ -100,7 +100,7 @@ function toggleView(){
     </div>
     <!-- Map view button -->
     <div class="min-h-7 flex items-center ml-auto order-2">
-      <button class="text-sm p-1 bg-white rounded-lg font-semibold" @click="toggleView">
+      <button class="text-sm p-1 bg-white rounded-lg font-semibold hover:bg-gray-400 transition-colors" @click="toggleView">
         <i class="fa-solid fa-globe" v-if="!mapView"></i>
         <i class="fa-solid fa-file-lines" v-else></i>
         &nbsp;{{ viewBtnText }}
