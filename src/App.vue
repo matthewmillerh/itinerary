@@ -75,7 +75,7 @@ function toggleView(){
       <div class="p-5 ml-auto order-2">   
         <p>Emily Rae Smith Labuschagne</p>  
         <div class="border-b-2 border-gray-300 mt-1"></div>  
-        <p>Matthew Jason Miller</p>      
+        <p>Matthew Jason Miller</p>   
       </div>
     </div>
   </header>
