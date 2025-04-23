@@ -15,13 +15,10 @@ This project is a web application built with Vue 3 and Vite, designed to help us
 * Vue Router
 * Vite
 * Tailwind CSS
-* Mapbox GL JS
-* MySQL
 
 ## Prerequisites
 
 * Node.js and npm installed
-* MySQL database set up
 
 ## Installation
 
